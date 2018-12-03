@@ -1,0 +1,11 @@
+ disas complex_verify
+Search for strcpy
+Looking back, you find move and lea, 
+Looking even before that, you find: 
+   0x00005555555549de <+36>:	mov    -0x58(%rbp),%rdx
+   0x00005555555549e2 <+40>:	lea    -0x50(%rbp),%rax
+Strcpy takes two arguments that are pointers, which is why you decide to use -50 
+
+With buffers, 50 in hex is 16^1*(5)+ 16^0*(0) = 80, 
+*fp rbp has 8 bytes
+Therefore 'A'*88 will overflow the buffer

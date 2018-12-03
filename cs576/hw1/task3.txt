@@ -1,0 +1,2 @@
+For task three I started out by looking at the Hello World assembly code. It took a while to figure out how the table that was linked for help actually helps. 
+Once I figured that out I used the hello world code as a guide for opening the text document, reading from the document, and writing to the console.
